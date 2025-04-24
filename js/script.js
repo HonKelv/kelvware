@@ -89,7 +89,7 @@ Phone: ${phone}
 ${email ? "Email: " + email : ""}`;
 
     const encodedMessage = encodeURIComponent(baseMessage);
-    const whatsappNumber = "2348012345678"; // 🔁 replace with your real number
+    const whatsappNumber = "233502224249"; // 🔁 replace with your real number
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
     window.open(whatsappURL, "_blank");
