@@ -265,6 +265,24 @@
     color: #666;
     line-height: 1.5;
   }
+
+
+  .quote-btn1 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .quote-btn1:hover {
+    background-color: #000;
+    transform: translateY(-2px);
+  }
   
   .quote-btn {
     display: inline-block;
